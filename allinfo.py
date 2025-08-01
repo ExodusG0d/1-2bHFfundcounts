@@ -51,7 +51,7 @@ final_data_to_save = {
     'content': all_results_content
 }
 
-with open('all_fund_data_with_meta.json', 'w', encoding='utf-8') as f:
+with open('all_fund_data.json', 'w', encoding='utf-8') as f:
     json.dump(final_data_to_save, f, ensure_ascii=False, indent=4)
 
 print("-" * 30)
